@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+.container {
+    background-color: #EFEFEF;
+}
+
 .nav-bar-elements {
     height: 150px;
     background-color: #0B0D0F;
@@ -86,8 +91,8 @@
 .grid-section {
     flex: 3;
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 2px 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2px 100px 2px 0;
 }
 
 .grid-element {
@@ -96,6 +101,47 @@
     cursor: pointer;
 }
 
+.listing-section {
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.listing-section p {
+    color: #555;
+}
+
+.listing-section p:hover {
+    color: #999966;
+    cursor: pointer;
+}
+
+.grid-element .central {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.add-cart {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-element span {
+    color: #CD9933;
+}
+
+.grid-element p {
+    margin-bottom: 10px;
+}
 
 .grid-section .first {
     background-image: url('./images/image_one.jpg');
@@ -119,4 +165,25 @@
 
 .grid-section .sixth {
     background-image: url('./images/image_six.jpg');
+}
+
+.testimonials-section {
+    text-align: center;
+    padding: 100px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #555;
+}
+
+.testimonials-section h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    color: #999966;
+}
+
+.testimonials-section h1 {
+    margin-bottom: 5px;
+    font-size: 40px;
 }
