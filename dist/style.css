@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.nav-bar-elements {
+    height: 150px;
+    background-color: #0B0D0F;
+    display: flex;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inner-content {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-content div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inner-content div:hover {
+    color: #CD9933;
+    cursor: pointer;
+}
+
+.logo-section {
+    flex: 1;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.reservations {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-inner {
+    background-color: #CD9933;
+    padding: 15px 25px;
+}
+
+.restaurant-details {
+    border: 2px solid #fff;
+    width: 30%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50px 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.restaurant-details h4 {
+    font-size: 40px;
+}
+
+.restaurant-details span {
+    color: #CD9933;
+}
+
+.top-section {
+    height: 670px;
+    background-image: url('./images/main-page.jpg');
+}
+
+.restaurant-menu {
+    display: flex;
+}
+
+.listing-section {
+    flex: 1;
+}
+
+.grid-section {
+    flex: 3;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 2px 100px;
+}
+
+.grid-element {
+    height: 250px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+.grid-section .first {
+    background-image: url('./images/image_one.jpg');
+}
+
+.grid-section .second {
+    background-image: url('./images/image_two.jpg');
+}
+
+.grid-section .third {
+    background-image: url('./images/image_three.jpg');
+}
+
+.grid-section .fourth {
+    background-image: url('./images/image_four.jpg');
+}
+
+.grid-section .fifth {
+    background-image: url('./images/image_five.jpg');
+}
+
+.grid-section .sixth {
+    background-image: url('./images/image_six.jpg');
+}
