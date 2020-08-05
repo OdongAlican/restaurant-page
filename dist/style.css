@@ -347,3 +347,35 @@
     font-size: 14px;
     color: #CD9933;
 }
+
+.restaurant-menu {
+    height: 570px;
+    background-image: url('./images/menu_main.jpg');
+    background-size: cover;
+}
+
+.central-restaurant-section {
+    border: 2px solid #fff;
+    width: 30%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.restaurant-label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CD9933;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu-label {
+    font-size: 120px;
+    font-family: 'Great Vibes', cursive;
+    margin: 30px 0;
+}
+
+.flavour-label {
+    color: #888;
+}
