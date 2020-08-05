@@ -176,14 +176,71 @@
     color: #555;
 }
 
-.testimonials-section h2 {
+.testimonials-section h2,
+.right-section h2 {
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 5px;
     color: #999966;
 }
 
-.testimonials-section h1 {
+.testimonials-section h1,
+.right-section h1 {
     margin-bottom: 5px;
     font-size: 40px;
+}
+
+.lower-section {
+    background-color: #16191E;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.subscription-section {
+    display: flex;
+    margin: auto;
+    width: 30%;
+    justify-content: center;
+}
+
+.inner-left-section {
+    border-radius: 50%;
+    background-color: #CC9933;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.right-section {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-section h1 {
+    color: #fff;
+}
+
+.lower-section p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.lower-section input {
+    height: 45px;
+    width: 300px;
+    border: none;
+    padding-left: 20px;
+    outline: none;
+}
+
+.lower-section button {
+    border: none;
+    height: 45px;
+    width: 200px;
+    background-color: #CC9933;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    outline: none;
 }
