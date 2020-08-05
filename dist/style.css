@@ -73,6 +73,8 @@
 
 .restaurant-details span {
     color: #CD9933;
+    font-family: 'Great Vibes', cursive;
+    font-size: 26px;
 }
 
 .top-section {
@@ -169,7 +171,7 @@
 
 .testimonials-section {
     text-align: center;
-    padding: 100px 0;
+    padding: 30px 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bolder;
@@ -182,6 +184,7 @@
     font-weight: lighter;
     margin-bottom: 5px;
     color: #999966;
+    font-family: 'Great Vibes', cursive;
 }
 
 .testimonials-section h1,
@@ -243,4 +246,89 @@
     cursor: pointer;
     font-weight: bolder;
     outline: none;
+}
+
+.footer-section {
+    display: flex;
+    padding: 100px 0 20px;
+    background-color: #0B0D0F;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-first {
+    flex: 3;
+    text-align: right;
+    color: #999;
+    padding-right: 20px;
+}
+
+.footer-second {
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.footer-second p:hover {
+    color: #CC9933;
+    cursor: pointer;
+}
+
+.footer-third {
+    flex: 3;
+    text-align: center;
+}
+
+.footer-third p {
+    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #888;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer-third i {
+    color: #888;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.footer-third i:hover {
+    color: #CC9933;
+}
+
+.footer-fourth {
+    flex: 3;
+    line-height: 30px;
+    font-size: 13px;
+    color: #888;
+}
+
+.online-reservation {
+    border: 2px solid #CC9933;
+    width: 40%;
+    margin: auto;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    color: #CC9933;
+    font-weight: bold;
+}
+
+.rare-paragraph {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-contact {
+    color: #CC9933;
+}
+
+.testimonials-section i {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #CD9933;
 }
