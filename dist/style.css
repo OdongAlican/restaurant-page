@@ -67,6 +67,40 @@
 .reservation-inner {
     background-color: #CD9933;
     padding: 15px 25px;
+    margin-right: 10px;
+}
+
+.reservation-inner-item {
+    display: flex;
+    padding: 0px;
+    text-align: center;
+    background-color: #1A1C20;
+}
+
+.reservation-inner-item div {
+    border-right: 0.1px solid #555;
+    padding: 10px 10px;
+}
+
+.reservation-inner-item p {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 4px;
+    color: #666;
+}
+
+.total-section .small-two {
+    color: #CC9933;
+}
+
+.item-section .small-one {
+    color: #fff;
+}
+
+.reservation-inner-item div {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .restaurant-details {
