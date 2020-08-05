@@ -193,7 +193,8 @@
 }
 
 .testimonials-section h2,
-.right-section h2 {
+.right-section h2,
+.starters-heading h2 {
     font-size: 40px;
     font-weight: lighter;
     margin-bottom: 5px;
@@ -202,7 +203,8 @@
 }
 
 .testimonials-section h1,
-.right-section h1 {
+.right-section h1,
+.starters-heading h1 {
     margin-bottom: 5px;
     font-size: 40px;
 }
@@ -378,4 +380,99 @@
 
 .flavour-label {
     color: #888;
+}
+
+.starters-section {
+    display: flex;
+    margin-top: 70px;
+}
+
+.starters-left {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 2;
+    text-align: center;
+    color: aliceblue;
+}
+
+.first-starters {
+    background-image: url('./images/menu_one.jpg');
+}
+
+.second-starters {
+    background-image: url('./images/menu_two.jpg');
+}
+
+.third-starters {
+    background-image: url('./images/menu_three.jpg');
+}
+
+.fourth-starters {
+    background-image: url('./images/menu_four.jpg');
+    margin-bottom: 50px;
+}
+
+.main-menu-section {
+    padding: 0 40px;
+}
+
+.starters-right {
+    flex: 3;
+    padding: 0 10px;
+}
+
+.food-name {
+    margin-top: 180px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fat-content {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.food-ingredients {
+    color: #999;
+}
+
+.food-price {
+    color: #CC9933;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.starters-heading {
+    text-align: center;
+}
+
+.price-details {
+    display: flex;
+    margin-top: 40px;
+}
+
+.price-details-first {
+    font-weight: bold;
+}
+
+.price-details-first small {
+    color: #666;
+    font-weight: lighter;
+}
+
+.price-details-second {
+    flex: 4;
+    border-bottom: 2px dotted #777;
+}
+
+.price-details-third {
+    font-weight: bold;
+    color: #CC9933;
+}
+
+.starters-prices {
+    color: #777;
+    font-size: 15px;
+    margin-top: 10px;
 }
