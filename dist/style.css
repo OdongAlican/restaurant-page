@@ -13,6 +13,9 @@
     display: flex;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .inner-content {
@@ -30,18 +33,28 @@
     font-weight: 700;
 }
 
-.inner-content div:hover {
+.inner-content a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.inner-content a:hover {
     color: #CD9933;
     cursor: pointer;
 }
 
 .logo-section {
     flex: 1;
-    font-size: 17px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+
+.logo-section a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .reservations {
@@ -60,7 +73,7 @@
     border: 2px solid #fff;
     width: 30%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
     padding: 50px 30px;
     color: #fff;
     text-align: center;
@@ -78,7 +91,8 @@
 }
 
 .top-section {
-    height: 670px;
+    height: 570px;
+    padding-top: 100px;
     background-image: url('./images/main-page.jpg');
 }
 
@@ -259,8 +273,9 @@
 .footer-first {
     flex: 3;
     text-align: right;
-    color: #999;
+    color: #888;
     padding-right: 20px;
+    font-size: 15px;
 }
 
 .footer-second {
